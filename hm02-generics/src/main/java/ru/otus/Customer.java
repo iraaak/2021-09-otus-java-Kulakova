@@ -11,7 +11,10 @@ public class Customer {
         this.id = id;
         this.name = name;
         this.scores = scores;
-        hashCode();
+    }
+
+    public Customer clone() {
+        return new Customer(id, name, scores);
     }
 
     public long getId() {
