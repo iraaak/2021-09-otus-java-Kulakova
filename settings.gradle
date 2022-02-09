@@ -1,2 +1,4 @@
 rootProject.name = '2021-09-otus-java-Kulakova'
 include 'hm01-gradle'
+include 'hm02-generics'
+
